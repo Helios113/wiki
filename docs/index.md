@@ -1,25 +1,20 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
+For editing visit [mkdocs.org](https://www.mkdocs.org).
 
 # FreeCAD documentation
 
 ## Implementing a FEM solver:
 
-* GUI
-* Communication
+The fem solver resides in a subfolder of the same name in the femsolver folder found at:
+`src/Mod/Fem/femsolver/`  
+In our case the full directory is:  
+`src/Mod/Fem/femsolver/mofem`  
+There, one needs three scripts which take care of the FEM implementation:  
+1. [solver.py](solver.py.md)  
+2. [tasks.py](tasks.py.md)  
+3. [wrtier.py](writer.py.md)  
+
+Other implementation details are given here:  
++ [GUI](GUI.md)  
++ Communication
